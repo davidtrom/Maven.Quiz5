@@ -6,8 +6,9 @@ import java.util.Iterator;
  * @author leon on 18/12/2018.
  */
 public class Group<_> {
+
     public Group() {
-        throw new UnsupportedOperationException("Method not yet implemented");
+        //throw new UnsupportedOperationException("Method not yet implemented");
     }
 
     public Integer count() {

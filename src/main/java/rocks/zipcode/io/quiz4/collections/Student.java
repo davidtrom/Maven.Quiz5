@@ -8,7 +8,6 @@ import java.util.ArrayList;
 public class Student {
     Integer id;
     Double totalStudyTime;
-    ArrayList<Student> students = new ArrayList<>();
 
     public Student() {
         this(null);
@@ -25,5 +24,13 @@ public class Student {
 
     public Double getTotalStudyTime() {
         return totalStudyTime;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", totalStudyTime=" + totalStudyTime +
+                '}';
     }
 }
